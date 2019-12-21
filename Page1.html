@@ -1,10 +1,76 @@
 <html>
 <head>
 <title>評分系統</title>
-<link rel = stylesheet type = text/css href = Page1.css>
+<style type="text/css">
+        body{
+	          background-color:silver;
+            }
+
+        #top{
+          background-color:white;
+          height:50px;
+          padding-top: 25px;
+          padding-left: 25px;
+          border-bottom:3px gray solid;
+          }
+
+        #center{
+            background-color:white;
+            margin:0 auto;
+            width: 1000px;
+            height:1000px; 
+            padding-top: 25px;
+            padding-left: 25px;
+            }
+
+        #s_center{
+          margin-left: 350px;
+        }
+
+        #s_right{
+          margin-left: 1150px;
+        }
+
+        input{
+          width: 30px
+        }
+
+        textarea{
+          text-align:left;
+        }
+        #item{
+        margin-top:1%;
+        margin-left:1%;
+        margin-right:3%;
+        margin-bottom:4%;
+        width:auto;height:12%;
+        padding-top:2%;
+        padding-bottom:2%;
+        }
+        #myhw{
+        background-color:#b0f6ca;
+        margin-left:2%;
+        margin-right:2%;
+        width:46%;height:100%;
+        float:left;
+        text-align:center;
+        line-height:750%;
+        }
+        #cmatehw{
+        background-color:#b0f6ca;
+        margin-left:2%;
+        margin-right:2%;
+        width:46%;height:100%;
+        float:left;
+        text-align:center;
+        line-height:750%;
+        }
+
+</style>
+<!--<link rel = stylesheet type = text/css href = Page1.css>-->
 </head>
 <body>
-    <div id="top">
+    <div id="top"> <!-- header部分-->
         <span>
         Peer-Review
         </span>
@@ -15,22 +81,22 @@
             登出
         </span>
     </div>
-    <div id="center">
+    <div id="center"> <!-- 內容部分-->
       作業1
-      <div id = "item">
-        <div id="myhw">
+      <div id = "item"> <!-- 一列部分 -->
+        <div id="myhw"> <!-- 一列左部分 -->
           我的分數
         </div>        
-        <div id="cmatehw">
+        <div id="cmatehw"> <!-- 一列右部分 -->
           為他人評分
         </div>
       </div>
       作業2
-      <div id = "item">
-        <div id="myhw">
+      <div id = "item"><!-- 一列部分 -->
+        <div id="myhw"><!-- 一列左部分 -->
           我的分數
         </div>        
-        <div id="cmatehw">
+        <div id="cmatehw"><!-- 一列右部分 -->
           為他人評分
         </div>
       </div>
